@@ -17,7 +17,7 @@ func determineListenAddress() (string, error) {
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
-  fmt.Fprintln(w, "Hello World")
+  fmt.Fprintln(w, "Blake's Bad Ass Go App of Supreme Awesomeness ('jirisu' is Japanese for 'gopher')")
 }
 
 func main() {
