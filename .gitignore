@@ -1,3 +1,4 @@
 .env
 .docker_build/
-third_party/
+vendor/*
+!vendor/vendor.json
